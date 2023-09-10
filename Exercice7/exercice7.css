@@ -1,0 +1,109 @@
+/*1*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*2*/
+.header{
+    background-color: #299be4;
+    display: flex;
+    justify-content: space-between;
+    /*6*/
+    align-items: center;
+
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/*3*/
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+/*4*/
+.btn{
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+/*5*/
+.btn a{
+    text-decoration: none;
+}
+
+/*7*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+/*8*/
+table tr{
+    border-top: 1px solid rgb(0, 0, 0, 0.05);
+}
+
+/*9*/
+table td, table th{
+    padding: 10px;
+}
+
+/*10*/
+table td{
+    text-align: center;
+}
+
+/*11*/
+table .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table .img a{
+    text-decoration: none;
+    color: black;
+}
+
+/*12*/
+table .img img{
+    width: 20%;
+}
+
+/*13*/
+
+table td .gear{
+    margin-right: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+table td .xmark{
+    margin-right: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+table td i{
+    font-size: 20px;
+}
+
+table td .circle i{
+    font-size: 8px;
+}
+
+table tr:nth-child(1) td .circle i{
+    color: #28a745;
+}
+
+table tr:nth-child(2) td .circle i{
+    color: #F44336;
+}
+
+table tr:nth-child(3) td .circle i{
+    color: #ffc107;
+}

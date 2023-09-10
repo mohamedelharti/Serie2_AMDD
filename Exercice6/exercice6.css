@@ -1,0 +1,40 @@
+table{
+    /*1*/
+    width: 100%;
+    /*4*/
+    border-collapse: collapse;
+}
+
+.table-dark thead{
+    /*2*/
+    background-color: black;
+    color: white;
+}
+
+.table-dark td, .table-dark th{
+    /*3*/
+    padding: 10px;
+}
+
+.table-dark tr{
+    /*5*/
+    border-top: 1px solid #ddd;
+}
+
+/* 2éme ex */
+
+.table-light td, .table-light th{
+    /*6*/
+    padding: 10px;
+}
+
+.table-light tr{
+    /*7*/
+    border-top: 1px solid #ddd;
+}
+
+/*8*/
+/*odd*/
+.table-light tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.05);
+}
